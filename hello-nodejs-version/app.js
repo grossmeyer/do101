@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/apiv1', function (req, res) {
-    res.send('Hi, this is a test API for version 1!\n')
+    res.send('Hi, this is a test API for version 1.02!\nIf you can see this, webhooks were successful.')
 });
 
 app.listen(8080, function () {
